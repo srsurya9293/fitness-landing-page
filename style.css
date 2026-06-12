@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background: #f0fdf4;
+  color: #064e3b;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: #ffffff;
+  border-bottom: 1px solid #d1fae5;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #10b981;
+}
+
+.cta-btn {
+  background: #10b981;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero-title {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-sub {
+  color: #047857;
+  margin-bottom: 20px;
+}
+
+.hero-btn {
+  background: #10b981;
+  color: white;
+  padding: 12px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+/* Plans */
+.plans {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 60px;
+  flex-wrap: wrap;
+}
+
+.plan-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #d1fae5;
+  width: 260px;
+  text-align: center;
+}
+
+.plan-card h3 {
+  margin-bottom: 10px;
+  color: #10b981;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 20px;
+  background: #064e3b;
+  color: #a7f3d0;
+}
